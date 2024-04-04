@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <div className="relative">
           <div className=""><SidebarSection/></div>
-        <div className="absolute w-[85%] left-48 top-1">{children}</div>
+        <div className="absolute lg:w-[85%]  left-48 top-1">{children}</div>
         </div>
         
         </body>
