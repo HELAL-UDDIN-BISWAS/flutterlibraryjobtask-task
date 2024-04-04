@@ -1,19 +1,15 @@
 
 "use client";
-import { Navbar, Avatar, Button, Divider, Icon, Input, Sidebar, Typography } from "keep-react";
-import Image from "next/image";
+import { Navbar, Icon, Input} from "keep-react";
 import {
-  CaretDown,
-  FacebookLogo,
-  InstagramLogo,
   MagnifyingGlass,
-  TwitterLogo,
 } from "phosphor-react";
 import { IoSunnyOutline } from "react-icons/io5";
 
-export const NavbarComponent = () => {
+const NavbarComponent = () => {
   return (
-    <Navbar fluid={true} className="!py-5 ">
+    <div>
+<Navbar fluid={true} className="!py-5 ">
       <Navbar.Container className="flex items-center justify-between">
         <fieldset className="relative max-w-md">
           <Input placeholder="Search here" className="ps-11" />
@@ -50,7 +46,7 @@ export const NavbarComponent = () => {
         </Navbar.Container>
       </Navbar.Container>
     </Navbar>
-
-
-  );
+    </div>
+    );
 }
+export default NavbarComponent;

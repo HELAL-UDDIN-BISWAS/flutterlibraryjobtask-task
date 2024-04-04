@@ -48,7 +48,8 @@ const SidebarSection = () => {
           </Sidebar.Item>
           <Sidebar.Item>
             <Chat size={24} />
-            Become Sponsor
+            <p className="text-[16px]">Become Sponsor</p>
+            
           </Sidebar.Item>
           <Sidebar.Item>
             <Users size={24} />

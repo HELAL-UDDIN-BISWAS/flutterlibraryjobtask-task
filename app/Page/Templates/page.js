@@ -15,10 +15,10 @@ const Templates = () => {
     return (
         <div>
             <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-3">
-                <div className="max-w-[355px]">
+                <div className="max-w-[350px]">
                     <Image
                         src={img}
-                        width={350}
+                        width={348}
                         height={250}
                         alt="Picture of the author"
                     />
@@ -33,10 +33,10 @@ const Templates = () => {
 
                     </div>
                 </div>
-                <div className="max-w-[355px]">
+                <div className="max-w-[350px]">
                     <Image
                         src={img1}
-                        width={350}
+                        width={348}
                         height={250}
                         alt="Picture of the author"
                     />
@@ -51,10 +51,10 @@ const Templates = () => {
 
                     </div>
                 </div>
-                <div className="max-w-[355px]">
+                <div className="max-w-[350px]">
                     <Image
                         src={img2}
-                        width={350}
+                        width={348}
                         height={250}
                         alt="Picture of the author"
                     />
@@ -69,10 +69,10 @@ const Templates = () => {
 
                     </div>
                 </div>
-                <div className="max-w-[355px]">
+                <div className="max-w-[350px]">
                     <Image
                         src={img3}
-                        width={350}
+                        width={348}
                         height={250}
                         alt="Picture of the author"
                     />
@@ -86,10 +86,10 @@ const Templates = () => {
                         </div>
                     </div>
                 </div>
-                <div className="max-w-[355px]">
+                <div className="max-w-[350px]">
                     <Image
-                        src={img3}
-                        width={350}
+                        src={img4}
+                        width={348}
                         height={250}
                         alt="Picture of the author"
                     />
@@ -103,10 +103,10 @@ const Templates = () => {
                         </div>
                     </div>
                 </div>
-                <div className="max-w-[355px]">
+                <div className="max-w-[350px]">
                     <Image
-                        src={img3}
-                        width={350}
+                        src={img5}
+                        width={348}
                         height={250}
                         alt="Picture of the author"
                     />
@@ -120,10 +120,10 @@ const Templates = () => {
                         </div>
                     </div>
                 </div>
-                <div className="max-w-[355px]">
+                <div className="max-w-[350px]">
                     <Image
-                        src={img3}
-                        width={350}
+                        src={img6}
+                        width={348}
                         height={250}
                         alt="Picture of the author"
                     />
@@ -137,10 +137,10 @@ const Templates = () => {
                         </div>
                     </div>
                 </div>
-                <div className="max-w-[355px]">
+                <div className="max-w-[350px]">
                     <Image
-                        src={img3}
-                        width={350}
+                        src={img8}
+                        width={348}
                         height={250}
                         alt="Picture of the author"
                     />
@@ -154,10 +154,10 @@ const Templates = () => {
                         </div>
                     </div>
                 </div>
-                <div className="max-w-[355px]">
+                <div className="max-w-[350px]">
                     <Image
                         src={img3}
-                        width={350}
+                        width={348}
                         height={250}
                         alt="Picture of the author"
                     />
