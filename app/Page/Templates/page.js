@@ -14,8 +14,8 @@ import { RxDownload } from "react-icons/rx";
 const Templates = () => {
     return (
         <div>
-            <div className="grid grid-cols-3 gap-3">
-                <div >
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-3">
+                <div className="max-w-[355px]">
                     <Image
                         src={img}
                         width={350}
@@ -33,7 +33,7 @@ const Templates = () => {
 
                     </div>
                 </div>
-                <div>
+                <div className="max-w-[355px]">
                     <Image
                         src={img1}
                         width={350}
@@ -51,7 +51,7 @@ const Templates = () => {
 
                     </div>
                 </div>
-                <div>
+                <div className="max-w-[355px]">
                     <Image
                         src={img2}
                         width={350}
@@ -69,7 +69,7 @@ const Templates = () => {
 
                     </div>
                 </div>
-                <div>
+                <div className="max-w-[355px]">
                     <Image
                         src={img3}
                         width={350}
@@ -86,7 +86,7 @@ const Templates = () => {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className="max-w-[355px]">
                     <Image
                         src={img3}
                         width={350}
@@ -103,7 +103,7 @@ const Templates = () => {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className="max-w-[355px]">
                     <Image
                         src={img3}
                         width={350}
@@ -120,7 +120,7 @@ const Templates = () => {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className="max-w-[355px]">
                     <Image
                         src={img3}
                         width={350}
@@ -137,7 +137,7 @@ const Templates = () => {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className="max-w-[355px]">
                     <Image
                         src={img3}
                         width={350}
@@ -154,7 +154,7 @@ const Templates = () => {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className="max-w-[355px]">
                     <Image
                         src={img3}
                         width={350}

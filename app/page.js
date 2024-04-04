@@ -1,4 +1,5 @@
 import AllPhone from "./Page/AllPhone/page";
+import Footer from "./Page/Footer/page";
 import Heading from "./Page/Heading/page";
 import MenuItem from "./Page/Menu/page";
 import { NavbarComponent } from "./Page/Navber/page";
@@ -13,6 +14,7 @@ export default function Home() {
       <h3 className="mt-5">Screens</h3>
       <MenuItem></MenuItem>
       <AllPhone></AllPhone>
+      <Footer></Footer>
     </div>
     
   );
